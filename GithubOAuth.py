@@ -6,8 +6,6 @@ try:
     import string
     import json
     from time import time
-    #from random import random
-    from flask import Flask, render_template, make_response
     from flask_dance.contrib.github import make_github_blueprint, github
 except Exception as e:
     print("Some Modules are Missings {}".format(e))
